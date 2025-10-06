@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    align-items: left; /* Alinha verticalmente */
+    justify-content: left; /* Alinha horizontalmente */
+    padding: 10px;
+}
+body {
+    background-color:#013220 ;
+    margin: 30px;
+    text-align: left;
+    line-height: 1.8;
+    
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: MinhaFonte;
+    
+}
+p{
+    font-size: 26px;
+    color: antiquewhite;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: MinhaFonte2;
+}
+h3{
+    font-size: 52;
+    color: blue;
+    font-family: MinhaFonte2;
+}
+@font-face {
+    font-family:'MinhaFonte';
+    src: url('fonts/vtks\ giz.ttf') format('truetype');
+}
+@font-face {
+    font-family:'MinhaFonte2';
+    src: url('fonts/EraserRegular.ttf') format('truetype');
+}
+nav ul li{
+    border-radius: 10px;
+    box-shadow: 10px;
+
+}
+header nav ul li a{
+    color: #f9f9f9;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+img{
+    padding: 0px;
+    margin: 0;
+}
+
+footer a{
+    font-size: 30px;
+    color: rgb(248, 141, 158);
+    display: flex;
+}
